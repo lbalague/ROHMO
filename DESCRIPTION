@@ -1,0 +1,20 @@
+Package: ROHMO
+Title: Runs of Homozygosity and Mosaicism Detector
+Version: 1.0
+Authors@R: c(person("Alejandro", "Cáceres", , "alejandro.caceres@isglobal.org", c("aut", "cre")),
+	person("Laura", "Balagué-Dobón", ,"laura.balague@isglobal.org", role = "aut"))
+Maintainer: Laura Balagué-Dobón <laura.balague@isglobal.org>
+Description: ROHMO is a tool to detect Runs of Homozygosity and Mosaic Chromosome Alterations from SNP array data. Also to plot the results along with the metrics evaluated for the detection.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+	R (>= 3.4),
+	Biobase
+Imports:
+	stats,
+	utils, 
+	grDevices, 
+	graphics,
+	methods,
+	datasets
+RoxygenNote: 7.2.3
